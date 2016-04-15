@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: face-detect-demo_dev
+  pool: 5
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: face-detect-demo_test
+  pool: 5
